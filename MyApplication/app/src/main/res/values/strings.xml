@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="job">
+        <item>Select Job</item>
+        <item>Teacher</item>
+        <item>Student</item>
+        <item>Other</item>
+    </string-array>
+</resources>

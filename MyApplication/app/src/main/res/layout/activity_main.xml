@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#2fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius"
+            android:text="MyApp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:padding="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColorHint="#979797"
+            android:background="@drawable/vie_bg"
+            android:textColor="@color/white"
+            android:hint="Name"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColorHint="#979797"
+            android:background="@drawable/vie_bg"
+            android:textColor="@color/white"
+            android:hint="Country"/>
+
+        <Spinner
+            android:id="@+id/jobSpinner"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:background="@drawable/vie_bg"
+            android:gravity="left"
+            android:popupBackground="@drawable/view_bg"/>
+        <EditText
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColorHint="#979797"
+            android:background="@drawable/vie_bg"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+        <EditText
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColorHint="#979797"
+            android:background="@drawable/vie_bg"
+            android:textColor="@color/white"
+            android:hint="Username"/>
+        <EditText
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColorHint="#979797"
+            android:background="@drawable/vie_bg"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+        <EditText
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textColorHint="#979797"
+            android:background="@drawable/vie_bg"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:hint="ConfirmPassword"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="I Agree to the Terms of Use"
+            android:textColor="#fffBF8"
+            android:layout_gravity="left"
+            android:buttonTint="@color/white"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:background="@drawable/btn"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
