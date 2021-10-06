@@ -3,7 +3,6 @@ package com.asr.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,16 +10,13 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
-
-import java.security.PublicKey;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String[] kota = new String[]  {"Indonesia","Filipina","Kamboja","Laos","Myanmar","Thailand","Vietnam","Brunai","Malaysia","Singpura","Timor Leste"};
     AutoCompleteTextView autoCompleteTextView;
     private  Button btnReg;
-    SettingActivity settingActivity=new SettingActivity();
+    MessageActivity settingActivity=new MessageActivity();
     Spinner joSpinner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openSettingActivity(){
-        Intent intent = new Intent(this,SettingActivity.class);
+        Intent intent = new Intent(this, MessageActivity.class);
         startActivity(intent);
     }
 }
