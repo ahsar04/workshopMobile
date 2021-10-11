@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/drawable/ic_baseline_live_tv_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/drawable/item_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/drawable/round_corner.xml" value="0.3828125" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/layout/fragment_history.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/layout/fragment_live_tv.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/layout/fragment_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ahmad Saifur Rohman/AndroidStudioProjects/FragmenApplication/app/src/main/res/menu/item_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
